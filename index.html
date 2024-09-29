@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce product page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <!--=====Header Section Start======-->
+    <header class="header">
+      <div class="container">
+        <nav>
+          <ul>
+            <div class="logo">
+              <img src="./Images/logo.svg" alt="Logo" />
+            </div>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Wome</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="cart__content">
+            <img src="./Images/icon-cart.svg" alt="Icon Cart" />
+            <span class="qty__label">3</span>
+            <div class="user__icon">
+              <img src="./Images/image-avatar.png" alt="User image" />
+            </div>
+            <!--=====Cart Box Start=====-->
+            <div class="cart__box">
+              <p class="box__title">Cart</p>
+              <div class="pro__content">
+                <!-- <img
+                  src="./Images/image-product-1-thumbnail.jpg"
+                  alt="Image product 1"
+                />
+                <div class="para__details">
+                  <p class="poro__para">Fall Limited Edition Sneakers</p>
+                  <p class="price">
+                    $125.00 <span>X</span> <span class="times">3</span>
+                    <span class="total">$375</span>
+                  </p>
+                </div>
+                <div class="trash">
+                  <img src="./Images/icon-delete.svg" alt="Delete icon" />
+                </div> -->
+              </div>
+              <div class="cart__empty">
+                <p>Your cart is empty :)</p>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--=====Header Section End======-->
+
+    <!--=====Poduct Sectioin Start=====-->
+    <main id="products">
+      <div class="container">
+        <div class="product__wrapper">
+          <div class="product__img">
+            <div class="img__thumbnail">
+              <img
+                class="img__thumbnail--js"
+                src="./Images/image-product-1.jpg"
+                alt="Image of product one"
+              />
+              <div class="img__small">
+                <img
+                  class="active"
+                  src="./Images/image-product-1-thumbnail.jpg"
+                  alt="image of product thumbnail"
+                />
+                <img
+                  src="./Images/image-product-2-thumbnail.jpg"
+                  alt="image of product thumbnail"
+                />
+                <img
+                  src="./Images/image-product-3-thumbnail.jpg"
+                  alt="image of product thumbnail"
+                />
+                <img
+                  src="./Images/image-product-4-thumbnail.jpg"
+                  alt="image of product thumbnail"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="product__content">
+            <p class="company__name">Sneaker Company</p>
+            <h2>Fall Limited Edition Sneakers</h2>
+            <p class="product__description">
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </p>
+            <div class="product__price">
+              <div class="discount__price">
+                <p class="normal__price">$125.00</p>
+                <p><span class="discount">50%</span></p>
+              </div>
+              <p class="total__price">$250.00</p>
+            </div>
+            <div class="product__qty">
+              <div class="btns">
+                <button type="button" class="decreament">-</button>
+                <button type="button" class="qty__number">1</button>
+                <button type="button" class="increament">+</button>
+              </div>
+              <button type="button" class="add__cart">
+                <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                    fill="#fff"
+                    fill-rule="nonzero"
+                  />
+                </svg>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--=====Poduct Sectioin End=====-->
+
+    <!--=====Model Section Start=====-->
+    <div class="model">
+      <div class="model__wrapper">
+        <img
+          class="close__icon"
+          src="./Images/icon-close.svg"
+          alt="Close icon"
+        />
+        <div class="product__imgModel">
+          <div class="img__thumbnailModel">
+            <img
+              src="./Images/image-product-1.jpg"
+              alt="Image of product one"
+            />
+            <div class="img__smallModel">
+              <img
+                class="active"
+                src="./Images/image-product-1-thumbnail.jpg"
+                alt="image of product thumbnail"
+              />
+              <img
+                src="./Images/image-product-2-thumbnail.jpg"
+                alt="image of product thumbnail"
+              />
+              <img
+                src="./Images/image-product-3-thumbnail.jpg"
+                alt="image of product thumbnail"
+              />
+              <img
+                src="./Images/image-product-4-thumbnail.jpg"
+                alt="image of product thumbnail"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--====Model Section End=====-->
+    <script src="./script.js"></script>
+  </body>
+</html>

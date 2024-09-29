@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  header {
+    padding: 0 20px;
+  }
+
+  .product__wrapper {
+    flex-direction: column;
+  }
+
+  .model__wrapper {
+    top: 68%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .product__content h2 {
+    width: 100%;
+  }
+
+  .product__description {
+    width: 100%;
+    text-align: justify;
+  }
+
+  nav ul li {
+    display: none;
+  }
+
+  .user__icon {
+    width: 60px;
+  }
+
+  .user__icon img {
+    width: 60%;
+  }
+
+  nav::before {
+    bottom: -17px;
+  }
+
+  .qty__label {
+    right: 50px;
+  }
+}
